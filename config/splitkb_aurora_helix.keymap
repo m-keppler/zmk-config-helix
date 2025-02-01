@@ -47,21 +47,6 @@ As such, those are in use within the default layer at this time.*/
                      &mo ADJUST &kp GRAVE &kp LGUI &kp LALT &mo LOWER &kp SPACE &kp BSPC        &kp RET    &kp SPACE &mo RAISE &kp LEFT  &kp DOWN   &kp UP    &kp RIGHT
                      >;
               };
-              raise_layer {
-                     // ---------------------------------------------------------------------------------------------------------------------------------
-                     // |      |      |      |      |      |      |                                  |      |      |      |      |      |      |
-                     // |  ~   |  !   |  @   |  #   |  $   |  %   |                                  |  ^   | HOME |  UP  | END  |  (   |      |
-                     // |      |      |      |      |      |      |                                  |      | LEFT | DOWN | RIGHT|  }   | PIPE |
-                     // |      |      |      |      |      |      |  (   |                    |  )   |      |      |      | HOME | END  |      |
-                     // |      |      |      |      |      |      |      |                    |      |      |      |      |      |      |      |
-                     bindings = <
-                     &trans    &trans   &trans &trans   &trans   &trans                             &trans    &trans    &trans    &trans    &trans   &trans
-                     &kp TILDE &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT                          &kp CARET &kp HOME  &kp UP    &kp END   &kp RPAR &trans
-                     &trans    &trans   &trans &trans   &trans   &trans                             &trans    &kp LEFT  &kp DOWN   &kp RIGHT &kp RBRC &kp PIPE
-                     &trans    &trans   &trans &trans   &trans   &trans    &kp LPAR        &kp RPAR &trans    &trans    &trans    &kp HOME  &kp END  &trans
-                     &trans    &trans   &trans &trans   &trans   &trans    &trans          &trans   &trans    &trans    &trans    &trans    &trans   &trans
-                     >;
-              };
               lower_layer {
                      // ---------------------------------------------------------------------------------------------------------------------------------
                      // |       |       |       |       |       |       |                                    |       |       |       |       |       |       |
@@ -75,6 +60,21 @@ As such, those are in use within the default layer at this time.*/
                      &trans    &kp F1 &kp F2 &kp F3 &kp F4  &kp F5                       &kp F6  &kp MINUS &kp EQUAL  &kp LBKT     &kp RBKT     &kp BSLH
                      &trans    &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &trans        &trans &kp F12 &trans    &kp PSCRN  &kp PG_DN    &kp PG_UP    &trans
                      &trans    &trans &trans &trans &trans  &trans  &trans        &trans &trans  &trans    &kp C_NEXT &kp C_VOL_DN &kp C_VOL_UP &kp C_PP
+                     >;
+              };
+              raise_layer {
+                     // ---------------------------------------------------------------------------------------------------------------------------------
+                     // |      |      |      |      |      |      |                                  |      |      |      |      |      |      |
+                     // |  ~   |  !   |  @   |  #   |  $   |  %   |                                  |  ^   | HOME |  UP  | END  |  (   |      |
+                     // |      |      |   (  |   )  |   [  |   ]  |                                  |      | LEFT | DOWN | RIGHT|  }   | PIPE |
+                     // |      |      |      |      |      |      |  (   |                    |  )   |      |      |      | HOME | END  |      |
+                     // |      |      |      |      |      |      |      |                    |      |      |      |      |      |      |      |
+                     bindings = <
+                     &trans    &trans   &trans   &trans   &trans   &trans                             &trans    &trans    &trans    &trans    &trans   &trans
+                     &kp TILDE &kp EXCL &kp AT   &kp HASH &kp DLLR &kp PRCNT                          &kp CARET &kp HOME  &kp UP    &kp END   &kp RPAR &trans
+                     &trans    &trans   &kp LPAR &kp RPAR &kp LBKT &kp RBKT                             &trans    &kp LEFT  &kp DOWN   &kp RIGHT &kp RBRC &kp PIPE
+                     &trans    &trans   &trans   &trans   &trans   &trans    &kp LPAR        &kp RPAR &trans    &trans    &trans    &kp HOME  &kp END  &trans
+                     &trans    &trans   &trans   &trans   &trans   &trans    &trans          &trans   &trans    &trans    &trans    &trans    &trans   &trans
                      >;
               };
               adjust_layer {
