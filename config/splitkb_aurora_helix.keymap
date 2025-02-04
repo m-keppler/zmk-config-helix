@@ -73,7 +73,7 @@ As such, those are in use within the default layer at this time.*/
                      &trans    &trans   &trans   &trans   &trans   &trans                             &trans    &trans    &trans    &trans    &trans   &trans
                      &kp TILDE &kp EXCL &kp AT   &kp HASH &kp DLLR &kp PRCNT                          &kp CARET &kp HOME  &kp UP    &kp END   &kp RPAR &trans
                      &trans    &trans   &kp LPAR &kp RPAR &kp LBKT &kp RBKT                           &trans    &kp LEFT  &kp DOWN  &kp RIGHT &kp BSLH &kp BSLH
-                     &trans    &trans   &trans   &kp LBRC &kp RBRC &trans    &kp LPAR        &kp RPAR &trans    &trans    &trans    &kp HOME  &kp END  &trans
+                     &trans    &trans   &trans   &trans   &kp LBRC &kp RBRC  &kp LPAR        &kp RPAR &trans    &trans    &trans    &kp HOME  &kp END  &trans
                      &trans    &trans   &trans   &trans   &trans   &trans    &trans          &trans   &trans    &trans    &trans    &trans    &trans   &trans
                      >;
               };
