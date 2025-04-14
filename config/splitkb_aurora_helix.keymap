@@ -57,11 +57,11 @@ As such, those are in use within the default layer at this time.*/
             // | ADJUST|       |       |       |       |       |       |                    |       |       |       | NEXT  | VOL-  | VOL+  | PLAY  |
 
             bindings = <
-&trans      &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE      &trans     &trans                     &kp F6     &kp F7                &kp F8                 &kp F9            &kp F10            &kp F11
-&kp GRAVE   &kp N1        &kp N2        &kp N3          &kp N4     &kp N5                     &kp N6     &kp N7                &kp N8                 &kp N9            &kp N0             &kp DEL
-&trans      &sk LEFT_WIN  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL  &kp F5                     &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PIPE
-&trans      &kp F7        &kp F8        &kp F9          &kp F10    &kp F11  &trans    &trans  &kp TILDE  &kp PLUS              &kp MINUS              &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-&mo ADJUST  &trans        &trans        &trans          &trans     &trans   &trans    &trans  &trans     &trans                &kp C_NEXT             &kp C_VOL_DN      &kp C_VOL_UP       &kp C_PP
+&trans      &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE      &trans     &trans                    &kp F6     &kp F7                &kp F8                 &kp F9            &kp F10            &kp F11
+&kp GRAVE   &kp N1        &kp N2        &kp N3          &kp N4     &kp N5                    &kp N6     &kp N7                &kp N8                 &kp N9            &kp N0             &kp DEL
+&trans      &sk LEFT_WIN  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL  &kp F5                    &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PIPE
+&trans      &kp F1        &kp F2        &kp F3          &kp F4     &kp F5  &trans    &trans  &kp TILDE  &kp PLUS              &kp MINUS              &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&mo ADJUST  &trans        &trans        &trans          &trans     &trans  &trans    &trans  &trans     &trans                &kp C_NEXT             &kp C_VOL_DN      &kp C_VOL_UP       &kp C_PP
             >;
         };
 
