@@ -125,4 +125,13 @@ As such, those are in use within the default layer at this time.*/
             keep-mods = <(MOD_RSFT)>;
         };
     };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        adjust {
+            if-layers = <1 2>;
+            then-layer = <3>;
+        };
+    };
 };
